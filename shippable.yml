@@ -1,7 +1,7 @@
 language: none
 
 build:
-  pre_ci:
+  ci:
     - echo 'CI Running'
     - export IMAGE_NAME=206950348394.dkr.ecr.eu-central-1.amazonaws.com/samplepipelinesdemo
     - ./build.sh
