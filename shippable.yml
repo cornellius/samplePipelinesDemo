@@ -14,10 +14,3 @@ integrations:
     - integrationName: "amazon-ecr"
       type: ecr
       region: eu-central-1
-#  notifications:
-#    - integrationName: "triggerPipelinesDemo"
-#      type: webhook
-#      payload:
-#        - versionName=$BRANCH.$BUILD_NUMBER
-#      on_success: always
-#      on_failure: never

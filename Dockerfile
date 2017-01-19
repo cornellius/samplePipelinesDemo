@@ -1,4 +1,4 @@
-FROM node:0.10.44-slim
+FROM node:alpine
 
 RUN apk --no-cache update && \
     apk --no-cache add python py-pip py-setuptools ca-certificates groff less && \
